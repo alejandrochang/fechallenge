@@ -27,6 +27,7 @@ class App extends Component {
     const { value } = this.state;
     let data = {
       username: value,
+      // checkbox will be tied to individual: boolean
       // individual: true
     };
 
@@ -59,7 +60,7 @@ class App extends Component {
             rows={4}
           />
           </p>
-          {/* Add logic to checkbox and event handlet for selecting checkbox */}
+          {/* Add logic to checkbox and event handler for selecting checkbox */}
           <p>
             <Checkbox
               // checked={this.state.checked}
